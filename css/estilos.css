@@ -3,7 +3,7 @@ body{
 }
 .cabecera{
     background-color: #4e6d92;
-    height: 192px;
+    height: 210px;
 }
 .cabecera .nombre_sitio{
     color: white;
@@ -13,7 +13,8 @@ body{
 
 }
 .cabecera .escudo{
-    width: 7%;
+    width: 130px;
+    
 }
 .cabecera .menu{
     float: right;
@@ -25,13 +26,16 @@ body{
 }
 .cabecera .menu ol li{
     display: inline-block;
+    float: left;
 }
 .cabecera .menu ol li a{
     color: white;
     font-size: 1.2em;
-    text-decoration: none;
-    padding-left: 10px;
+    text-align: left;
+    text-decoration:dashed;
+    padding-left: 20px;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 .cabecera .menu ol li a:hover{
     color: white;
@@ -39,13 +43,13 @@ body{
     text-decoration: underline;
 }
 .seccion_izquierda{
-    background-color: rgb(50, 81, 130);
+    background-color: rgb(77, 93, 118);
     float: left;
     width: 48%;
     padding: 10px;
 }
 .seccion_derecha{
-    background-color: rgb(50, 81, 130);
+    background-color: rgb(77, 93, 118);
     float: right;
     width: 48%;
     padding: 10px;
@@ -57,10 +61,30 @@ footer{
     font-size: 1em;
 }
 .historia{
-    background-color: rgb(50, 81, 130);
+    background-color: rgb(77, 93, 118);
     font-family: Arial, Helvetica, sans-serif;
 }
 .historia .h_quito{
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
     color: white;
+}
+.intro{
+    background-color: #4e6d92;
+    border-radius: 3%;
+}
+.intro .t_in{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+}
+.intro .p_in{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    color: white;
+}
+.intro_im{
+    display: flex;
+    justify-content: center;
+    
 }
