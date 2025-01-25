@@ -26,7 +26,6 @@ body{
 }
 .cabecera .menu ol li{
     display: inline-block;
-    float: left;
 }
 .cabecera .menu ol li a{
     color: white;
@@ -44,12 +43,14 @@ body{
 }
 .seccion_izquierda{
     background-color: rgb(77, 93, 118);
+    border-radius: 3%;
     float: left;
     width: 48%;
     padding: 10px;
 }
 .seccion_derecha{
     background-color: rgb(77, 93, 118);
+    border-radius: 3%;
     float: right;
     width: 48%;
     padding: 10px;
@@ -66,8 +67,41 @@ footer{
 }
 .historia .h_quito{
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 5em;
     text-align: center;
     color: white;
+}
+.historia .p_his{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    text-align: justify;
+    color: white;
+}
+.seccion_izquierda .sec_iz_t{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5em;
+    text-align: center;
+    color: white;
+}
+.seccion_izquierda .sec_iz_tab{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    color: white;
+    font-size: 1em;
+    line-height: 237%;
+}
+.seccion_derecha .sec_der_t{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5em;
+    text-align: center;
+    color: white;
+}
+.seccion_derecha .sec_der_tab{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    color: white;
+    font-size: 1em;
+    line-height: 130%;
 }
 .intro{
     background-color: #4e6d92;
@@ -75,16 +109,53 @@ footer{
 }
 .intro .t_in{
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 5em;
     text-align: center;
     color: white;
 }
 .intro .p_in{
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
     text-align: justify;
     color: white;
 }
 .intro_im{
     display: flex;
-    justify-content: center;
-    
+    justify-content: center;   
+}
+.ult_a .ult_a_t{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    text-align: left;
+    color: black;
+}
+.ult_a .ult_a_l{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    text-align: left;
+    color: black;
+}
+.des_a .des_a_t{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    text-align: left;
+    color: black;
+}
+.des_a .des_a_p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    text-align: left;
+    color: black;
+}
+.en_in .en_in_t{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    text-align: left;
+    color: black;
+}
+.en_in .en_in_l{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    text-align: left;
+    color: black;
 }
