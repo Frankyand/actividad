@@ -159,3 +159,127 @@ footer{
     text-align: left;
     color: black;
 }
+.formu .formu_t{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    text-align: left;
+    color: black;
+}
+.formu .formu_p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    text-align: left;
+    color: black;
+}
+.con .con_t{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    text-align: left;
+    color: black;
+}
+.come .come_t{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    text-align: left;
+    color: black;
+}
+.come .come_c{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    text-align: left;
+    color: black;
+}
+.ac_rea .ac_rea_t{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    text-align: center;
+    color: black;
+}
+.con{
+    background-color: rgb(77, 93, 118);
+    border-radius: 3%;
+    width: 100%;  
+}
+.con .con_t{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5em;
+    text-align: center;
+    color: white;
+}
+.con .con_p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    text-align: justify;
+    color: white;
+}
+.con .con_im{
+    display: flex;
+    justify-content: center; 
+}
+.con .con_v_t{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    text-align: center;
+    color: white;
+}
+.con .con_v{
+    display: flex;
+    justify-content: center; 
+}
+.des .des_t{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5em;
+    text-align: center;
+    color: black;
+}
+.des .des_p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    text-align: justify;
+    color: black;
+}
+.des .des_im{
+    display: flex;
+    justify-content: center;
+}
+.des .des_t_v{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    text-align: center;
+    color: black;
+}
+.des .des_v{
+    display: flex;
+    justify-content: center;
+}
+.fue{
+    background-color: rgb(77, 93, 118);
+    border-radius: 3%;
+    width: 100%;  
+}
+.fue .fue_t{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5em;
+    text-align: center;
+    color: white;
+}
+.fue .fue_p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    text-align: justify;
+    color: white;
+}
+.fue .fue_im{
+    display: flex;
+    justify-content: center;
+}
+.fue .fue_t_v{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    text-align: center;
+    color: white;
+}
+.fue .fue_v{
+    display: flex;
+    justify-content: center;
+}
