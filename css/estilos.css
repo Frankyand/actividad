@@ -3,26 +3,26 @@ body{
 }
 .cabecera{
     background-color: #4e6d92;
-    height: 210px;
+    left: 25%;
 }
 .cabecera .nombre_sitio{
     color: white;
     font-size: 5em;
     font-family: 'Times New Roman', Times, serif;
-    
-
+    text-align: center;
 }
 .cabecera .escudo{
     width: 130px;
     
 }
 .cabecera .menu{
-    float: right;
+    text-align: center;
     font-size: 1em;
     font-family: Arial, Helvetica, sans-serif;
 }
 .cabecera .menu ol{
     list-style: none;
+    float: center;
 }
 .cabecera .menu ol li{
     display: inline-block;
@@ -30,7 +30,7 @@ body{
 .cabecera .menu ol li a{
     color: white;
     font-size: 1.2em;
-    text-align: left;
+    text-align: center;
     text-decoration:dashed;
     padding-left: 20px;
     font-family: Arial, Helvetica, sans-serif;
@@ -104,7 +104,7 @@ footer{
     line-height: 130%;
 }
 .intro{
-    background-color: #4e6d92;
+    background-color: rgb(77, 93, 118);
     border-radius: 3%;
 }
 .intro .t_in{
@@ -202,9 +202,15 @@ footer{
 }
 .con .con_t{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 5em;
+    font-size: 3em;
     text-align: center;
     color: white;
+}
+.con .con_l{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: white;
+
 }
 .con .con_p{
     font-family: Arial, Helvetica, sans-serif;
@@ -282,4 +288,54 @@ footer{
 .fue .fue_v{
     display: flex;
     justify-content: center;
+}
+.tour .tour_t{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5em;
+    text-align: center;
+    color: black;
+}
+.tour .tour_sec1 .tour_sec1_l{
+    margin-top: 20px;
+    background-color: rgb(77, 93, 118);
+    border-radius: 3%;
+    float: left;
+    width: 750px;
+    height: 150px;
+    padding: 10px;
+}
+.tour .tour_sec1 .tour_sec1_r{
+    margin-top: 20px;
+    background-color: rgb(77, 93, 118);
+    border-radius: 3%;
+    float: right;
+    width: 750px;
+    height: 150px;
+    padding: 10px;
+}
+.tour .tour_sec2 .tour_sec2_l{
+    margin-top: 20px;
+    background-color: rgb(77, 93, 118);
+    border-radius: 3%;
+    float: left;
+    width: 750px;
+    height: 150px;
+    padding: 10px;
+}
+.tour .tour_sec2 .tour_sec2_r{
+    margin-top: 20px;
+    background-color: rgb(77, 93, 118);
+    border-radius: 3%;
+    float: right;
+    width: 750px;
+    height: 150px;
+    padding: 10px;
+}
+.tour .tour_sec3{
+    margin-top: 20px;
+    background-color: rgb(77, 93, 118);
+    border-radius: 3%;
+    width: 750px;
+    height: 150px;
+    padding: 10px;
 }
